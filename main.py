@@ -25,12 +25,6 @@ Data(x=[2708, 1433], edge_index=[2, 10556], y=[2708], train_mask=[2708], val_mas
 
 x=[paper ID, sparse vector]
 """
-import torch
-for idx, xx in enumerate(dataset[0].x):
-    # print(str(idx)+":", torch.nonzero(xx).tolist(), "\n")
-    print(xx.tolist())
-
-
 
 
 #implementing a two-layer GCN
